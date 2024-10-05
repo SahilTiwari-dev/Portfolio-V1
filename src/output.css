@@ -553,3 +553,30 @@ video {
 [hidden] {
   display: none;
 }
+
+.h-12 {
+  height: 3rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-specialText {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 255 218 / var(--tw-bg-opacity));
+}
+
+.bg-bodyColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 25 47 / var(--tw-bg-opacity));
+}
