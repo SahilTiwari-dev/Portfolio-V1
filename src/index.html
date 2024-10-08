@@ -74,7 +74,7 @@
         <div
           class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36"
         >
-          <h3 class="text-specialText">Hi, my name is</h3>
+          <h3 class="text-specialText text-xl">Hi, my name is</h3>
           <h1 class="text-headingColor text-4xl">Sahil Tiwari</h1>
           <h3 class="text-subHeadingColor text-3xl">
             I build interactive websites.
@@ -87,43 +87,68 @@
             seamless, responsive experiences that meet modern web standards and
             user expectations.
           </p>
-          <h3 class="text-specialText">Let me show You...</h3>
+          <h3 class="text-specialText text-xl">Let me show You...</h3>
         </div>
       </section>
       <!-- Projects -->
       <section id="projects" class="h-screen">
-        <!-- Number-Guessing-Game -->
-        <div
-          class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36"
-        >
-          <h3 class="text-headingColor">
+        <div class="flex justify-center pb-36 pt-2">
+          <h3 class="text-headingColor text-2xl">
             Some Things I've Built <span class="text-specialText">/></span>
           </h3>
-          <a
-            href="https://github.com/SahilTiwari-dev/Number-Guessing-Game"
-            target="_blank"
-            ><img
-              src="./assets/images/Number-Guessing-Game.png"
-              alt="Number-Guessing-Game"
-          /></a>
-          <div>
-            <h3></h3>
-            <p></p>
+        </div>
+        <div class="flex justify-center gap-5">
+          <img
+            class="w-4/5 sm:w-2/5 rounded-xl hover:scale-105 duration-500"
+            src="./assets/images/Number-Guessing-Game.png"
+            alt=""
+          />
+          <div class="hidden sm:flex flex-col gap-5 w-2/5">
+            <h3 class="text-specialText">Number Guessing Game</h3>
+            <p class="text-peragraphText">
+              Test your intuition and luck with this fun and interactive number
+              guessing game. The game challenges you to guess a randomly
+              generated number within a specified range. With responsive
+              feedback and a clean, user-friendly interface, it's an engaging
+              way to practice your problem-solving skills while having fun.
+              Built using HTML, CSS, and JavaScript, this project showcases my
+              front-end development capabilities and my focus on creating
+              interactive web applications.
+            </p>
           </div>
-          <!-- Projects-Page-Button -->
-          <a
+        </div>
+        <div class="flex justify-center pt-36 gap-4">
+          <a class="text-peragraphText hover:text-specialText duration-500"
             href="./pages/projects.html"
             target="_self"
             rel="noopener noreferrer"
             >Explore More</a
           >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#64ffda"
+          >
+            <path
+              d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"
+            />
+          </svg>
         </div>
       </section>
       <!-- About-Me -->
       <section id="about_me" class="h-screen">
+        <div class="flex justify-center p-2">
+          <h3 class="text-headingColor text-2xl">
+            About Me <span class="text-specialText">/></span>
+          </h3>
+        </div>
+
         <div class="flex flex-col md:flex-row">
-          <div class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36">
-            <h3 class="text-headingColor">About Me <span class="text-specialText">/></span></h3>
+          <div
+            class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36"
+          >
             <p class="text-peragraphText">
               Hello! I'm Sahil, currently pursuing a Bachelor of Computer
               Applications (BCA). As a passionate and dedicated web developer, I
@@ -156,7 +181,11 @@
             </div>
           </div>
           <div class="max-w-md lg:max-w-96 m-4 px-4 md:my-36 md:py-10">
-            <img class="rounded hover:scale-105 duration-500" src="./assets/images/myImg.jpg" alt="Human-image" />
+            <img
+              class="rounded hover:scale-105 duration-500"
+              src="./assets/images/myImg.jpg"
+              alt="Human-image"
+            />
           </div>
         </div>
       </section>
