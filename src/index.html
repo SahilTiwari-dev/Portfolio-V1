@@ -121,12 +121,9 @@
       </section>
       <!-- About-Me -->
       <section id="about_me" class="h-screen">
-        <div class="flex m-0 my-24 w-auto gap-4 px-4 md:px-8 xl:m-36">
-          <div class="flex-col md:max-w-2xl">
-            <h3 class="text-headingColor">
-              About Me <span class="text-specialText">/></span>
-            </h3>
-            <!-- Summry -->
+        <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36">
+            <h3 class="text-headingColor">About Me <span class="text-specialText">/></span></h3>
             <p class="text-peragraphText">
               Hello! I'm Sahil, currently pursuing a Bachelor of Computer
               Applications (BCA). As a passionate and dedicated web developer, I
@@ -136,7 +133,6 @@
               can be leveraged to craft innovative and seamless digital
               experiences for users.
             </p>
-            <!-- skills -->
             <p class="text-peragraphText">
               I have a solid technical foundation in front-end development,
               specializing in HTML, CSS, Tailwind CSS, JavaScript, and React.
@@ -145,21 +141,23 @@
               also provide exceptional user experiences. Here are some of the
               key technologies and tools I'm currently working with:
             </p>
-            <div class="flex">
-              <div class="flex-col">
-                <p>HTML5</p>
-                <p>CSS3</p>
-                <p>Tailwind CSS</p>
-                <p>JavaScript (ES6+)</p>
+            <div class="flex gap-32">
+              <div class="text-peragraphText">
+                <p><span class="text-specialText">></span> HTML5</p>
+                <p><span class="text-specialText">></span> CSS3</p>
+                <p><span class="text-specialText">></span> Tailwind CSS</p>
+                <p><span class="text-specialText">></span> JavaScript (ES6+)</p>
               </div>
-              <div class="flex-col">
-                <p>React</p>
-                <p>Git</p>
-                <p>GitHub</p>
+              <div class="text-peragraphText">
+                <p><span class="text-specialText">></span> React</p>
+                <p><span class="text-specialText">></span> Git</p>
+                <p><span class="text-specialText">></span> GitHub</p>
               </div>
             </div>
           </div>
-          <img src="./assets/images/myImg.jpg" alt="" class="w-96" />
+          <div class="max-w-md lg:max-w-96 m-4 px-4 md:my-36 md:py-10">
+            <img class="rounded hover:scale-105 duration-500" src="./assets/images/myImg.jpg" alt="Human-image" />
+          </div>
         </div>
       </section>
       <section id="resume" class="h-screen"></section>
