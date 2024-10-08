@@ -8,7 +8,9 @@
   </head>
   <body class="bg-bodyColor">
     <header>
+      <!-- Nav-Bar -->
       <nav class="flex justify-between p-3">
+        <!-- Logo -->
         <div>
           <a href="./index.html"
             ><svg
@@ -28,7 +30,7 @@
             </svg>
           </a>
         </div>
-
+        <!-- Nav-Buttons -->
         <div class="hidden lg:flex gap-x-4 p-2">
           <a
             href="#projects"
@@ -51,6 +53,7 @@
             >Contact Me<span class="text-specialText"> /></span></a
           >
         </div>
+        <!-- Nav-Icon -->
         <div class="lg:hidden">
           <svg
             class="md:h-12 h-10"
@@ -66,6 +69,7 @@
       </nav>
     </header>
     <main>
+      <!-- Intro -->
       <section id="intro" class="h-screen p-5">
         <div
           class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36"
@@ -75,6 +79,7 @@
           <h3 class="text-subHeadingColor text-3xl">
             I build interactive websites.
           </h3>
+          <!-- Overview -->
           <p class="text-peragraphText">
             I'm a web developer focused on crafting efficient and engaging web
             solutions. My focus is on creating user-friendly websites that
@@ -85,26 +90,78 @@
           <h3 class="text-specialText">Let me show You...</h3>
         </div>
       </section>
+      <!-- Projects -->
       <section id="projects" class="h-screen">
+        <!-- Number-Guessing-Game -->
         <div
           class="flex flex-col m-0 my-24 w-auto gap-4 px-4 md:px-8 md:max-w-2xl xl:m-36"
         >
-          <h3 class="text-headingColor">Some Things I've Built <span class="text-specialText">/></span></h3>
-          <a href="https://github.com/SahilTiwari-dev/Number-Guessing-Game" target="_blank"
-            ><img src="./assets/images/Number-Guessing-Game.png" alt="Number-Guessing-Game"
+          <h3 class="text-headingColor">
+            Some Things I've Built <span class="text-specialText">/></span>
+          </h3>
+          <a
+            href="https://github.com/SahilTiwari-dev/Number-Guessing-Game"
+            target="_blank"
+            ><img
+              src="./assets/images/Number-Guessing-Game.png"
+              alt="Number-Guessing-Game"
           /></a>
           <div>
             <h3></h3>
             <p></p>
           </div>
+          <!-- Projects-Page-Button -->
           <a
             href="./pages/projects.html"
             target="_self"
             rel="noopener noreferrer"
-          >Explore More</a>
+            >Explore More</a
+          >
         </div>
       </section>
-      <section id="about_me" class="h-screen"></section>
+      <!-- About-Me -->
+      <section id="about_me" class="h-screen">
+        <div class="flex m-0 my-24 w-auto gap-4 px-4 md:px-8 xl:m-36">
+          <div class="flex-col md:max-w-2xl">
+            <h3 class="text-headingColor">
+              About Me <span class="text-specialText">/></span>
+            </h3>
+            <!-- Summry -->
+            <p class="text-peragraphText">
+              Hello! I'm Sahil, currently pursuing a Bachelor of Computer
+              Applications (BCA). As a passionate and dedicated web developer, I
+              thrive on the challenge of creating dynamic, user-friendly web
+              applications that solve real-world problems. My journey in web
+              development has been fueled by a deep curiosity for how technology
+              can be leveraged to craft innovative and seamless digital
+              experiences for users.
+            </p>
+            <!-- skills -->
+            <p class="text-peragraphText">
+              I have a solid technical foundation in front-end development,
+              specializing in HTML, CSS, Tailwind CSS, JavaScript, and React.
+              These technologies enable me to build interactive, efficient, and
+              responsive websites that not only meet functional requirements but
+              also provide exceptional user experiences. Here are some of the
+              key technologies and tools I'm currently working with:
+            </p>
+            <div class="flex">
+              <div class="flex-col">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>Tailwind CSS</p>
+                <p>JavaScript (ES6+)</p>
+              </div>
+              <div class="flex-col">
+                <p>React</p>
+                <p>Git</p>
+                <p>GitHub</p>
+              </div>
+            </div>
+          </div>
+          <img src="./assets/images/myImg.jpg" alt="" class="w-96" />
+        </div>
+      </section>
       <section id="resume" class="h-screen"></section>
       <section id="contact_info" class="h-screen"></section>
     </main>
